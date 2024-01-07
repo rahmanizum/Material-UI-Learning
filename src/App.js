@@ -17,6 +17,7 @@ import MuiNavbar from "./components/MuiNavbar";
 // import MuiBreadcrumbs from "./components/MuiBreadcrumbs";
 // import MuiDrawer from "./components/MuiDrawer";
 import MuiSpeedDial from "./components/MuiSpeedDial";
+import MuiBottomNavigation from "./MuiBottomNavigation";
 function App() {
   return (
     <div className="App">
@@ -38,6 +39,7 @@ function App() {
       {/* <MuiBreadcrumbs/> */}
       {/* <MuiDrawer/> */}
       <MuiSpeedDial/>
+      <MuiBottomNavigation/>
       
     </div>
   );
